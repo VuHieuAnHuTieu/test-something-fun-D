@@ -1,0 +1,29 @@
+{
+  "pack": "Step 13-14 modular source pack",
+  "prompt_files": [
+    "identity.md",
+    "playbook.md",
+    "soul.md",
+    "user.md"
+  ],
+  "knowledge_files": {
+    "business_knowledge.csv": 33,
+    "technical_knowledge.csv": 25,
+    "analytics_rules.csv": 28,
+    "security_knowledge.csv": 24,
+    "glossary.csv": 37,
+    "validation_rules.csv": 32
+  },
+  "total_knowledge_rows": 179,
+  "source_policy": {
+    "eligible_unique_sources_audited": 104,
+    "restricted_excluded_sources": [
+      "Darden_2025.pdf",
+      "Darden-Casebook-2023-2024.pdf",
+      "28150609(3).pdf"
+    ],
+    "duplicate_copies_not_used_as_distinct_sources": 4,
+    "note": "Rows are curated from higher-priority eligible sources plus explicit project architecture requirements. Lower-tier casebooks are used only for problem-framing patterns, not as authoritative current market facts."
+  },
+  "source_page_convention": "source_page values refer to PDF page index where provided, not necessarily printed book page number."
+}

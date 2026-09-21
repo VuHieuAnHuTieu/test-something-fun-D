@@ -1,0 +1,11 @@
+streamlit
+ollama
+mysql-connector-python
+pandas
+pydantic
+python-dotenv
+matplotlib
+reportlab
+sqlglot
+pypdf
+Pillow

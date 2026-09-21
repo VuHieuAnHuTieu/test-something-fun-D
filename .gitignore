@@ -1,0 +1,45 @@
+# Environment Variables & Secrets
+.env
+.env.local
+.saved_config.json
+*.local.sql
+create_users_LOCAL_ONLY.sql
+
+
+# Python Virtual Environments
+.venv/
+env/
+venv/
+
+# Byte-compiled & Cache
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated Reports & Exports
+reports/*.pdf
+reports/pdfs/*.pdf
+reports/pdfs/*.png
+reports/charts/*.png
+scratch/step29_renders/
+scratch/step30_visual_qa/
+scratch/chrome_test.png
+exports/*.csv
+exports/charts/*.png
+exports/data/*.csv
+exports/reports/*.pdf
+
+# Streamlit Cache & Logs
+.streamlit/*
+!.streamlit/config.toml
+logs/*.jsonl
+logs/*.log
+
+# Local Antigravity development skills
+.agents/
